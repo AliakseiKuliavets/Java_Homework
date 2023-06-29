@@ -18,7 +18,6 @@ public class Lesson3 {
         first = scanner.nextLine();
         second = scanner.nextLine();
         if (first.length() % 2 == 0 && second.length() % 2 == 0) {
-            System.out.println("it`s ok");
 
             int firstHaf1 = first.length() / 2;
             String firstHaf2 = first.substring(0,firstHaf1);
