@@ -14,10 +14,10 @@ import java.util.Scanner;
 public class Lesson4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Print first number m: ");
+        System.out.println("Введите первое положительное число m: ");
         double m = sc.nextDouble();
 
-        System.out.println("Print second number n: ");
+        System.out.println("Введите второе положительное число n: ");
         double n = sc.nextDouble();
 
         if (m == 10 || n == 10){
