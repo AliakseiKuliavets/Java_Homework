@@ -20,6 +20,9 @@ public class Lesson4 {
         System.out.println("Введите второе положительное число n: ");
         double n = sc.nextDouble();
 
+        if (m < 0 || n < 0) {
+            System.out.println("Одно из чисел не положительное ");
+        } else  {
         if (m == 10 || n == 10){
             equal(n,m);
         } else if ( m > 10 && n > 10) {
@@ -34,6 +37,7 @@ public class Lesson4 {
             ifLess(m,n);
         } else {
             ifMore(m,n);
+        }
         }
 
     }
