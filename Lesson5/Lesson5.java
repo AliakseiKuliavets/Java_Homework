@@ -40,7 +40,8 @@ public class Homework2 {
             return false;
         }
     }
-            static boolean canByRewe(int start2, int end2, int hour) {
+
+    static boolean canByRewe(int start2, int end2, int hour) {
         if ( hour >= start2 && hour < end2) {
             return  true;
         } else {
