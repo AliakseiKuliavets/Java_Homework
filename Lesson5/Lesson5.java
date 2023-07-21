@@ -7,37 +7,39 @@
          Не понял сути задания реализовал как смог
         */
 
+
 import java.util.Scanner;
 
-public class Homework2 {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Сколько сейчас времени в часах: ");
-        int hour = scanner.nextInt();
 
-        while (true){
-            int time = sc.nextInt();
-            if (hour<0 || hour>=24)
-                System.out.print("Enter the valid value: ");
-            else break;
-        }
 
 
         // Режим работы Edeka start1 - начало работы, end1 - конец рабочего дня
         // Режим работы Rewe start2 - начало работы, end2 - конец рабочего дня
 
-        int start1, start2, end1, end2;
+        int start1, start2, end1, end2, hour;
         start1 = 9;
         end1 = 17;
         start2 = 12;
         end2 = 22;
 
+
+        while (true){
+            hour = scanner.nextInt();
+            if (hour<0 || hour>=24)
+                System.out.print("Enter the valid value: ");
+            else break;
+        }
+
         if (hour > end2 || hour < start1) {
             System.out.println("Все магазины закрыты");
         } else {
             System.out.println("Я могу купить еду в: \n"
-            + "isEdekaOpen: " + canByEdeka(start1,end1,hour)
-            + "\nisReweOpen: " + canByRewe(start2,end2,hour));
+                    + "isEdekaOpen: " + canByEdeka(start1,end1,hour)
+                    + "\nisReweOpen: " + canByRewe(start2,end2,hour));
         }
     }
     static boolean canByEdeka(int start1, int end1, int hour) {
