@@ -15,6 +15,13 @@ public class Homework2 {
         System.out.println("Сколько сейчас времени в часах: ");
         int hour = scanner.nextInt();
 
+        while (true){
+            int time = sc.nextInt();
+            if (hour<0 || hour>=24)
+                System.out.print("Enter the valid value: ");
+            else break;
+        }
+
 
         // Режим работы Edeka start1 - начало работы, end1 - конец рабочего дня
         // Режим работы Rewe start2 - начало работы, end2 - конец рабочего дня
