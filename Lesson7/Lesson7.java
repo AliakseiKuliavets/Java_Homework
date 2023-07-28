@@ -16,7 +16,7 @@ public class Lesson7 {
         int[] arrays = new int[8];
         Random random = new Random();
         for (int val = 0; val < arrays.length; val++)
-            arrays[val] = random.nextInt(50);
+            arrays[val] = random.nextInt(1,50);
         for (int val : arrays) System.out.print(val + " ");
         System.out.println();
         for (int val : arrays) {
