@@ -1,7 +1,7 @@
 1. в директории Lesson9_1 находятся файлы:
     .файл Lesson9 - для запуска 
     .файл ArraysOfNumber - методы для работы программы
-2. в директории Lesson9_1 находятся файлы:
+2. в директории Lesson9_2 находятся файлы:
     .файл Lesson92 - для запуска 
     .файл ArraysList - методы для работы программы
 
@@ -12,7 +12,7 @@
 1. The Lesson9_1 directory contains the following files:
     .Lesson9 file - to run
     .file ArraysOfNumber - methods for running the program
-2. The Lesson9_1 directory contains the following files:
+2. The Lesson9_2 directory contains the following files:
     .file Lesson92 - to run
     .file ArraysList - methods for running the program
 
